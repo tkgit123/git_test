@@ -4,7 +4,7 @@
 
 
 int main() {
-  
 
+  printf("Merry Xmas and Happy New Year!");
   return 0;
 }
