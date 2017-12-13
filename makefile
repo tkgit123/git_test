@@ -2,9 +2,9 @@ SRC_CALC = src/main.c
 SRC_UNITY = unity/src/unity.c
 
 Q = @
-calculator.exe: $(SRC_CALC)
+calculator: $(SRC_CALC)
 	@echo Building program!
-	$(Q) gcc $(SRC_CALC) -o calculator
+	$(Q) gcc -o $@ $^
 	@echo Building done!
 
 clean :

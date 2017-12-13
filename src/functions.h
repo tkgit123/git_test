@@ -1,14 +1,14 @@
 
-int chk_input(long float);
+int chk_input(double);
 
 
-long float add(long float, long float);
+double add(double, double);
 
 
-long float sub(long float, long float);
+double sub(double, double);
 
 
-long float mult(long float, long float);
+double mult(double, double);
 
 
-long float div(long float, long float);
+double div(double, double);

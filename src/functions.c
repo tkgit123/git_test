@@ -1,26 +1,26 @@
 #include "functions.h"
 
-int chk_input(long float num) {
+int chk_input(double num) {
   if(num == 0) return 1;
   return 0;
 }
 
 
-long float add(long float num1, long float num2) {
+double add(double num1, double num2) {
   return num1 + num2;
 }
 
 
-long float sub(long float num1, long float num2) {
+double sub(double num1, double num2) {
   return num1 - num2;
 }
 
 
-long float mult(long float num1, long float num2) {
+double mult(double num1, double num2) {
   return num1 * num2;
 }
 
 
-long float div(long float num1, long float num2) {
+double div(double num1, double num2) {
   return num1 / num2;
 }
