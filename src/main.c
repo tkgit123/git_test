@@ -29,7 +29,7 @@ int main() {
             break;
 
         case '/':
-            printf("%.1lf / %.1lf = %.1lf",firstNumber, secondNumber, firstNumber/firstNumber);
+            printf("%.1lf / %.1lf = %.1lf",firstNumber, secondNumber, firstNumber/secondNumber);
             break;
 
         // operator is doesn't match any case constant (+, -, *, /)
